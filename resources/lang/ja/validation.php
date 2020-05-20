@@ -102,7 +102,8 @@ return [
     | of "email". This simply helps us make messages a little cleaner.
     |
     */
-
+    
+    // formのnameがそのまま出てきて読みにくいですので、これも日本語化していきましょう。
     'attributes' => [
       'title' => 'タイトル',
       'body' => '本文',

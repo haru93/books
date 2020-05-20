@@ -25,6 +25,8 @@ class LoginController extends Controller
      *
      * @var string
      */
+    // ログイン後に /(トップページ)にリダイレクトするよう修正。
+    // $redirectToを変更することで好きなURLにリダイレクトさせることができます。
     protected $redirectTo = '/';
 
     /**

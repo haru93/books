@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+<!--@sectionが /layouts/app.blade.php の @yield('content') に埋め込まれる-->
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
